@@ -1,0 +1,247 @@
+INFO: 2018-05-19 11:18:19,472: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_1 sucess~~
+INFO: 2018-05-19 11:18:19,472: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 11:18:19,554: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 11:18:19,554: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 11:18:19,646: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 11:18:19,646: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 11:18:19,688: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 11:18:19,688: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 11:18:19,729: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 11:18:19,730: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 11:18:19,800: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 11:18:19,807: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 11:18:19,884: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 11:28:57,617: load_common.py:60 * create the database anakin_version_pk_report sucess~~
+INFO: 2018-05-19 11:28:57,617: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 11:28:57,742: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 11:28:57,742: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 11:28:57,833: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 11:28:57,833: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 11:28:57,875: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 11:28:57,875: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 11:28:57,916: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 11:28:57,917: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 11:28:57,993: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 11:28:57,999: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 11:28:58,201: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 11:39:36,154: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_1 sucess~~
+INFO: 2018-05-19 11:39:36,154: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 11:39:36,278: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 11:39:36,278: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 11:39:36,361: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 11:39:36,361: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 11:39:36,403: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 11:39:36,403: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 11:39:36,445: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 11:39:36,446: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 11:39:36,522: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 11:39:36,528: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 11:39:36,606: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:15:54,319: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_1 sucess~~
+INFO: 2018-05-19 12:15:54,319: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 12:15:54,345: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 12:15:54,345: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 12:15:54,353: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 12:15:54,353: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:15:54,523: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:15:54,523: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:15:54,652: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:15:54,653: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 12:15:54,879: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:15:54,885: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 12:15:55,046: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:21:09,347: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_1 sucess~~
+INFO: 2018-05-19 12:21:09,348: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 12:21:09,389: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 12:21:09,389: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 12:21:09,473: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 12:21:09,474: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:21:09,538: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:21:09,539: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:21:09,747: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:21:09,749: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 12:21:09,861: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:21:09,872: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 12:21:09,953: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:27:05,061: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_2 sucess~~
+INFO: 2018-05-19 12:27:05,061: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 12:27:05,176: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 12:27:05,176: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 12:27:05,260: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 12:27:05,261: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:27:05,294: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:27:05,294: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:27:05,327: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:27:05,329: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 12:27:05,394: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:27:05,403: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 12:27:05,469: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:27:49,937: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_2 sucess~~
+INFO: 2018-05-19 12:27:49,938: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 12:27:50,045: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 12:27:50,045: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 12:27:50,162: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 12:27:50,162: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:27:50,330: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:27:50,330: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:27:50,378: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:27:50,380: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 12:27:50,458: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:27:50,466: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 12:27:50,559: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:29:29,398: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_4 sucess~~
+INFO: 2018-05-19 12:29:29,398: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 12:29:29,614: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 12:29:29,614: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 12:29:29,705: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 12:29:29,706: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:29:29,755: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:29:29,755: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:29:29,805: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:29:29,807: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 12:29:29,976: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:29:29,986: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 12:29:30,060: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:30:28,731: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_4 sucess~~
+INFO: 2018-05-19 12:30:28,731: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 12:30:28,830: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 12:30:28,830: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 12:30:28,922: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 12:30:28,922: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:30:28,955: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:30:28,955: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:30:29,023: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:30:29,025: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 12:30:29,098: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:30:29,108: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 12:30:29,182: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:32:20,281: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_8 sucess~~
+INFO: 2018-05-19 12:32:20,281: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 12:32:20,397: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 12:32:20,397: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 12:32:20,500: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 12:32:20,500: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:32:20,547: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:32:20,547: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:32:20,597: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:32:20,599: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 12:32:20,675: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:32:20,690: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 12:32:20,884: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 12:34:00,724: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_8 sucess~~
+INFO: 2018-05-19 12:34:00,724: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 12:34:00,832: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 12:34:00,832: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 12:34:00,920: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 12:34:00,920: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:34:00,965: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:34:00,966: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 12:34:01,015: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:34:01,019: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 12:34:01,095: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 12:34:01,110: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 12:34:01,187: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 14:04:53,107: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_32 sucess~~
+INFO: 2018-05-19 14:04:53,107: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 14:04:53,248: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 14:04:53,248: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 14:04:53,348: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 14:04:53,348: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 14:04:53,390: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 14:04:53,390: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 14:04:53,540: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 14:04:53,547: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 14:04:53,623: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 14:04:53,671: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 14:04:53,749: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 14:10:58,770: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_32 sucess~~
+INFO: 2018-05-19 14:10:58,770: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 14:10:58,883: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 14:10:58,883: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 14:10:58,978: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 14:10:58,978: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 14:10:59,094: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 14:10:59,095: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 14:10:59,161: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 14:10:59,168: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 14:10:59,309: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 14:10:59,358: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 14:10:59,442: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 14:37:59,870: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_32 sucess~~
+INFO: 2018-05-19 14:37:59,870: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 14:37:59,878: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 14:37:59,878: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 14:38:00,023: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 14:38:00,023: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 14:38:00,061: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 14:38:00,061: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 14:38:00,103: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 14:38:00,110: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 14:38:00,189: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 14:38:00,238: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 14:38:00,314: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 14:44:06,583: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_32 sucess~~
+INFO: 2018-05-19 14:44:06,583: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 14:44:06,591: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 14:44:06,591: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 14:44:06,614: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 14:44:06,614: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 14:44:06,657: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 14:44:06,657: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 14:44:06,707: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 14:44:06,715: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 14:44:06,788: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 14:44:06,838: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 14:44:06,922: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 15:16:13,694: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_32 sucess~~
+INFO: 2018-05-19 15:16:13,694: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 15:16:13,802: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 15:16:13,802: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 15:16:13,894: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 15:16:13,894: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 15:16:13,935: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 15:16:13,935: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 15:16:13,977: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 15:16:13,984: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 15:16:14,079: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 15:16:14,126: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 15:16:14,204: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 15:22:21,656: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_32 sucess~~
+INFO: 2018-05-19 15:22:21,657: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 15:22:21,798: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 15:22:21,798: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 15:22:21,977: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 15:22:21,977: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 15:22:22,048: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 15:22:22,048: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 15:22:22,098: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 15:22:22,105: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 15:22:22,177: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 15:22:22,227: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 15:22:22,311: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 15:43:14,351: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_32 sucess~~
+INFO: 2018-05-19 15:43:14,351: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 15:43:14,359: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-19 15:43:14,359: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 15:43:14,367: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-19 15:43:14,367: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 15:43:14,425: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 15:43:14,425: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 15:43:14,467: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 15:43:14,474: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 15:43:14,549: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-19 15:43:14,598: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 15:43:14,674: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-19 15:49:20,447: load_common.py:60 * create the database anakin_version_pk_report_yololanev2_32 sucess~~
+INFO: 2018-05-19 15:49:20,447: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-19 15:49:20,455: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 15:49:20,455: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-19 15:49:20,463: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-19 15:49:20,463: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 15:49:20,513: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 15:49:20,513: load_common.py:132 * start truncate the sql
+INFO: 2018-05-19 15:49:20,546: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-19 15:49:20,553: load_common.py:106 * start instert the sql
+INFO: 2018-05-19 15:49:20,618: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-19 15:49:20,667: load_common.py:119 * start instert the sql
+INFO: 2018-05-19 15:49:20,794: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!

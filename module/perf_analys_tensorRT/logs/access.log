@@ -1,0 +1,26 @@
+INFO: 2018-05-21 10:18:56,986: load_common.py:60 * create the database anakin_version_pk_report_vgg16_32 sucess~~
+INFO: 2018-05-21 10:18:56,986: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-21 10:18:57,319: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_p4 sucess~~
+INFO: 2018-05-21 10:18:57,319: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-21 10:18:57,510: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_p4 sucess~~
+INFO: 2018-05-21 10:18:57,510: load_common.py:132 * start truncate the sql
+INFO: 2018-05-21 10:18:57,653: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-21 10:18:57,653: load_common.py:132 * start truncate the sql
+INFO: 2018-05-21 10:18:57,803: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-21 10:18:57,810: load_common.py:106 * start instert the sql
+INFO: 2018-05-21 10:18:57,994: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_p4 success!!!
+INFO: 2018-05-21 10:18:58,042: load_common.py:119 * start instert the sql
+INFO: 2018-05-21 10:18:58,262: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_p4 success!!!
+INFO: 2018-05-21 10:19:42,056: load_common.py:60 * create the database anakin_version_pk_report_vgg16_32 sucess~~
+INFO: 2018-05-21 10:19:42,056: load_common.py:75 * start create the table : top_list_1sec_avg_tensorRT
+INFO: 2018-05-21 10:19:42,212: load_common.py:78 * create the table top_list_1sec_avg_tensorRT_k1200 sucess~~
+INFO: 2018-05-21 10:19:42,213: load_common.py:93 * start create the table : nvidia_list_1sec_version_tensorRT
+INFO: 2018-05-21 10:19:42,338: load_common.py:96 * create the table nvidia_list_1sec_version_tensorRT_k1200 sucess~~
+INFO: 2018-05-21 10:19:42,339: load_common.py:132 * start truncate the sql
+INFO: 2018-05-21 10:19:42,405: load_common.py:135 * truncate top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-21 10:19:42,405: load_common.py:132 * start truncate the sql
+INFO: 2018-05-21 10:19:42,469: load_common.py:135 * truncate nvidia_list_1sec_version_tensorRT_k1200 success!!!
+INFO: 2018-05-21 10:19:42,477: load_common.py:106 * start instert the sql
+INFO: 2018-05-21 10:19:42,717: load_common.py:109 * insert into top_list_1sec_avg_tensorRT_k1200 success!!!
+INFO: 2018-05-21 10:19:42,767: load_common.py:119 * start instert the sql
+INFO: 2018-05-21 10:19:42,834: load_common.py:122 * insert into nvidia_list_1sec_version_tensorRT_k1200 success!!!

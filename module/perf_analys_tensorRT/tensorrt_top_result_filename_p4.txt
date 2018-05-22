@@ -1,0 +1,1388 @@
+top - 15:40:55 up 39 days,  5:12, 21 users,  load average: 0.02, 0.07, 0.24
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  4.1%us,  1.2%sy,  0.7%ni, 93.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 143303252k used, 55014292k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126062476k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  236g  62m  18m R 73.9  0.0   0:00.39 rt_batchsize_te    
+
+
+top - 15:40:56 up 39 days,  5:12, 21 users,  load average: 0.02, 0.07, 0.24
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  5.0%us,  5.6%sy,  0.2%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 143804516k used, 54513028k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126068628k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  237g 601m 159m R 93.7  0.3   0:01.33 rt_batchsize_te    
+
+
+top - 15:40:57 up 39 days,  5:12, 21 users,  load average: 0.02, 0.07, 0.24
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.0%us,  3.7%sy,  0.2%ni, 89.1%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144177180k used, 54140364k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126070684k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 995m 192m R 100.9  0.5   0:02.34 rt_batchsize_te   
+
+
+top - 15:40:58 up 39 days,  5:12, 21 users,  load average: 0.02, 0.07, 0.24
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  6.2%us,  5.0%sy,  0.2%ni, 88.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144177196k used, 54140348k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126070692k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  238g 995m 192m R 95.9  0.5   0:03.30 rt_batchsize_te    
+
+
+top - 15:40:59 up 39 days,  5:12, 21 users,  load average: 0.10, 0.08, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  6.7%us,  4.2%sy,  0.1%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144180824k used, 54136720k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126070700k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  238g 997m 192m R 98.9  0.5   0:04.29 rt_batchsize_te    
+
+
+top - 15:41:00 up 39 days,  5:12, 21 users,  load average: 0.10, 0.08, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  5.8%us,  4.7%sy,  0.7%ni, 88.8%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144188812k used, 54128732k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126070712k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  238g 1.0g 192m R 90.9  0.5   0:05.20 rt_batchsize_te    
+
+
+top - 15:41:01 up 39 days,  5:12, 21 users,  load average: 0.10, 0.08, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  6.3%us,  3.7%sy,  0.0%ni, 89.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144195920k used, 54121624k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126070720k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  238g 1.0g 192m R 91.9  0.5   0:06.12 rt_batchsize_te    
+
+
+top - 15:41:02 up 39 days,  5:12, 21 users,  load average: 0.10, 0.08, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  6.6%us,  3.3%sy,  0.1%ni, 90.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144196208k used, 54121336k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126070724k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  238g 1.0g 192m R 92.9  0.5   0:07.05 rt_batchsize_te    
+
+
+top - 15:41:03 up 39 days,  5:12, 21 users,  load average: 0.10, 0.08, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  4.7%us,  4.7%sy,  0.0%ni, 90.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144196496k used, 54121048k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126070732k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  238g 1.0g 192m R 90.9  0.5   0:07.96 rt_batchsize_te    
+
+
+top - 15:41:04 up 39 days,  5:12, 21 users,  load average: 0.17, 0.10, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.2%us,  3.2%sy,  0.0%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144385252k used, 53932292k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255064k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:08.96 rt_batchsize_te    
+
+
+top - 15:41:05 up 39 days,  5:12, 21 users,  load average: 0.17, 0.10, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.0%sy,  0.0%ni, 90.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389536k used, 53928008k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255072k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:09.96 rt_batchsize_te    
+
+
+top - 15:41:06 up 39 days,  5:12, 21 users,  load average: 0.17, 0.10, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  3.0%sy,  0.1%ni, 88.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144385792k used, 53931752k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255072k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:10.95 rt_batchsize_te    
+
+
+top - 15:41:07 up 39 days,  5:12, 21 users,  load average: 0.17, 0.10, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.6%us,  2.7%sy,  0.1%ni, 88.4%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144386008k used, 53931536k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255128k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:11.96 rt_batchsize_te   
+
+
+top - 15:41:08 up 39 days,  5:12, 21 users,  load average: 0.17, 0.10, 0.25
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.8%sy,  0.0%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144386080k used, 53931464k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255144k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:12.96 rt_batchsize_te    
+
+
+top - 15:41:09 up 39 days,  5:12, 21 users,  load average: 0.32, 0.13, 0.26
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.7%us,  2.7%sy,  0.0%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144385132k used, 53932412k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255152k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:13.96 rt_batchsize_te    
+
+
+top - 15:41:10 up 39 days,  5:12, 21 users,  load average: 0.32, 0.13, 0.26
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  3.7%sy,  0.6%ni, 87.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144388640k used, 53928904k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255312k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:14.95 rt_batchsize_te    
+
+
+top - 15:41:11 up 39 days,  5:12, 21 users,  load average: 0.32, 0.13, 0.26
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  2.9%sy,  0.1%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387364k used, 53930180k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255324k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:15.95 rt_batchsize_te    
+
+
+top - 15:41:12 up 39 days,  5:12, 21 users,  load average: 0.32, 0.13, 0.26
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.4%sy,  0.0%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387892k used, 53929652k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255332k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:16.95 rt_batchsize_te    
+
+
+top - 15:41:13 up 39 days,  5:12, 21 users,  load average: 0.32, 0.13, 0.26
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  1.6%sy,  0.0%ni, 90.5%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144390104k used, 53927440k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255380k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:17.95 rt_batchsize_te    
+
+
+top - 15:41:14 up 39 days,  5:12, 21 users,  load average: 0.37, 0.14, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.5%sy,  0.1%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387268k used, 53930276k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255388k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:18.95 rt_batchsize_te    
+
+
+top - 15:41:15 up 39 days,  5:12, 21 users,  load average: 0.37, 0.14, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.9%sy,  0.0%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144386524k used, 53931020k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255384k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:19.96 rt_batchsize_te   
+
+
+top - 15:41:16 up 39 days,  5:12, 21 users,  load average: 0.37, 0.14, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.1%sy,  0.2%ni, 88.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387260k used, 53930284k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255400k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:20.95 rt_batchsize_te    
+
+
+top - 15:41:17 up 39 days,  5:12, 21 users,  load average: 0.37, 0.14, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.8%sy,  0.0%ni, 88.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387248k used, 53930296k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255408k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:21.95 rt_batchsize_te    
+
+
+top - 15:41:18 up 39 days,  5:12, 21 users,  load average: 0.37, 0.14, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.7%sy,  0.0%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387124k used, 53930420k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255404k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:22.95 rt_batchsize_te    
+
+
+top - 15:41:19 up 39 days,  5:12, 21 users,  load average: 0.42, 0.16, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.5%sy,  0.1%ni, 89.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144386404k used, 53931140k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255408k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:23.95 rt_batchsize_te    
+
+
+top - 15:41:20 up 39 days,  5:12, 21 users,  load average: 0.42, 0.16, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.6%sy,  0.7%ni, 87.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144386624k used, 53930920k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255420k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:24.95 rt_batchsize_te    
+
+
+top - 15:41:21 up 39 days,  5:12, 21 users,  load average: 0.42, 0.16, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.1%sy,  0.0%ni, 89.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389500k used, 53928044k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255424k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:25.96 rt_batchsize_te   
+
+
+top - 15:41:22 up 39 days,  5:12, 21 users,  load average: 0.42, 0.16, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.7%us,  2.4%sy,  0.1%ni, 88.7%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144385380k used, 53932164k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255428k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:26.95 rt_batchsize_te    
+
+
+top - 15:41:23 up 39 days,  5:12, 21 users,  load average: 0.42, 0.16, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.7%sy,  0.0%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144385760k used, 53931784k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255448k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:27.95 rt_batchsize_te    
+
+
+top - 15:41:24 up 39 days,  5:12, 21 users,  load average: 0.47, 0.17, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.7%sy,  0.1%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144385396k used, 53932148k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255448k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:28.95 rt_batchsize_te    
+
+
+top - 15:41:25 up 39 days,  5:12, 21 users,  load average: 0.47, 0.17, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  2.9%sy,  0.0%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144385744k used, 53931800k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255456k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:29.96 rt_batchsize_te   
+
+
+top - 15:41:26 up 39 days,  5:12, 21 users,  load average: 0.47, 0.17, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.7%sy,  0.1%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144385652k used, 53931892k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255464k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:30.95 rt_batchsize_te    
+
+
+top - 15:41:27 up 39 days,  5:12, 21 users,  load average: 0.47, 0.17, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.5%us,  3.4%sy,  0.2%ni, 87.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144386424k used, 53931120k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255472k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:31.95 rt_batchsize_te    
+
+
+top - 15:41:28 up 39 days,  5:12, 21 users,  load average: 0.47, 0.17, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  3.0%sy,  0.2%ni, 88.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144386292k used, 53931252k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255488k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:32.95 rt_batchsize_te    
+
+
+top - 15:41:29 up 39 days,  5:12, 21 users,  load average: 0.51, 0.18, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  2.1%sy,  0.0%ni, 90.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389796k used, 53927748k free,  3830484k buffers
+Swap:        0k total,        0k used,        0k free, 126255488k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:33.95 rt_batchsize_te    
+
+
+top - 15:41:30 up 39 days,  5:12, 21 users,  load average: 0.51, 0.18, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.3%us,  3.2%sy,  0.7%ni, 87.7%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144388112k used, 53929432k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255620k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:34.95 rt_batchsize_te    
+
+
+top - 15:41:31 up 39 days,  5:12, 21 users,  load average: 0.51, 0.18, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  3.0%sy,  0.1%ni, 88.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144388020k used, 53929524k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255620k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:35.95 rt_batchsize_te    
+
+
+top - 15:41:32 up 39 days,  5:12, 21 users,  load average: 0.51, 0.18, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.8%sy,  0.1%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387292k used, 53930252k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255628k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:36.95 rt_batchsize_te    
+
+
+top - 15:41:33 up 39 days,  5:12, 21 users,  load average: 0.51, 0.18, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  2.3%sy,  0.0%ni, 89.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387896k used, 53929648k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255640k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:37.95 rt_batchsize_te    
+
+
+top - 15:41:34 up 39 days,  5:12, 21 users,  load average: 0.55, 0.20, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.6%sy,  0.0%ni, 89.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144387576k used, 53929968k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255648k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:38.94 rt_batchsize_te    
+
+
+top - 15:41:35 up 39 days,  5:12, 21 users,  load average: 0.55, 0.20, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.8%sy,  0.1%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144388916k used, 53928628k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255656k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:39.95 rt_batchsize_te   
+
+
+top - 15:41:36 up 39 days,  5:12, 21 users,  load average: 0.55, 0.20, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.4%sy,  0.2%ni, 88.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389312k used, 53928232k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255660k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:40.95 rt_batchsize_te    
+
+
+top - 15:41:37 up 39 days,  5:12, 21 users,  load average: 0.55, 0.20, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.2%sy,  0.1%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144393280k used, 53924264k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255720k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:41.94 rt_batchsize_te    
+
+
+top - 15:41:38 up 39 days,  5:12, 21 users,  load average: 0.55, 0.20, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.6%sy,  0.0%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390064k used, 53927480k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255732k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:42.95 rt_batchsize_te   
+
+
+top - 15:41:39 up 39 days,  5:12, 21 users,  load average: 0.58, 0.21, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.6%sy,  0.1%ni, 89.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389636k used, 53927908k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255748k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:43.94 rt_batchsize_te    
+
+
+top - 15:41:40 up 39 days,  5:12, 21 users,  load average: 0.58, 0.21, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.6%us,  3.3%sy,  0.6%ni, 87.4%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144388408k used, 53929136k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255704k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:44.95 rt_batchsize_te   
+
+
+top - 15:41:41 up 39 days,  5:12, 21 users,  load average: 0.58, 0.21, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.8%sy,  0.0%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389520k used, 53928024k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255724k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:45.95 rt_batchsize_te    
+
+
+top - 15:41:42 up 39 days,  5:12, 21 users,  load average: 0.58, 0.21, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.5%sy,  0.0%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144388388k used, 53929156k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255724k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:46.95 rt_batchsize_te    
+
+
+top - 15:41:43 up 39 days,  5:12, 21 users,  load average: 0.58, 0.21, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.4%sy,  0.0%ni, 89.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389100k used, 53928444k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255784k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:47.94 rt_batchsize_te    
+
+
+top - 15:41:44 up 39 days,  5:12, 21 users,  load average: 0.62, 0.22, 0.29
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.8%sy,  0.1%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389628k used, 53927916k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255788k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:48.94 rt_batchsize_te    
+
+
+top - 15:41:45 up 39 days,  5:12, 21 users,  load average: 0.62, 0.22, 0.29
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.3%sy,  0.0%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391704k used, 53925840k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255792k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:49.94 rt_batchsize_te    
+
+
+top - 15:41:46 up 39 days,  5:13, 21 users,  load average: 0.62, 0.22, 0.29
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.7%us,  2.8%sy,  0.1%ni, 88.4%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144389844k used, 53927700k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255804k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:50.95 rt_batchsize_te   
+
+
+top - 15:41:47 up 39 days,  5:13, 21 users,  load average: 0.62, 0.22, 0.29
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.2%sy,  0.0%ni, 89.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389564k used, 53927980k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255808k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:51.94 rt_batchsize_te    
+
+
+top - 15:41:48 up 39 days,  5:13, 21 users,  load average: 0.62, 0.22, 0.29
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.9%sy,  0.0%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389216k used, 53928328k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255792k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:52.95 rt_batchsize_te   
+
+
+top - 15:41:49 up 39 days,  5:13, 21 users,  load average: 0.73, 0.25, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.5%sy,  0.1%ni, 89.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389060k used, 53928484k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255808k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:53.95 rt_batchsize_te    
+
+
+top - 15:41:50 up 39 days,  5:13, 21 users,  load average: 0.73, 0.25, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  3.6%sy,  0.6%ni, 87.5%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144389416k used, 53928128k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255936k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:54.94 rt_batchsize_te    
+
+
+top - 15:41:51 up 39 days,  5:13, 21 users,  load average: 0.73, 0.25, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.7%us,  3.0%sy,  0.1%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389424k used, 53928120k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255940k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:55.94 rt_batchsize_te    
+
+
+top - 15:41:52 up 39 days,  5:13, 21 users,  load average: 0.73, 0.25, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  3.0%sy,  0.1%ni, 88.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389720k used, 53927824k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255956k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:56.94 rt_batchsize_te    
+
+
+top - 15:41:53 up 39 days,  5:13, 21 users,  load average: 0.73, 0.25, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  1.8%sy,  0.0%ni, 90.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392196k used, 53925348k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255960k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   0:57.95 rt_batchsize_te   
+
+
+top - 15:41:54 up 39 days,  5:13, 21 users,  load average: 0.75, 0.26, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.2%sy,  0.1%ni, 89.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144389836k used, 53927708k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255964k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   0:58.94 rt_batchsize_te    
+
+
+top - 15:41:55 up 39 days,  5:13, 21 users,  load average: 0.75, 0.26, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  3.0%sy,  0.0%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144389784k used, 53927760k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255972k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   0:59.94 rt_batchsize_te    
+
+
+top - 15:41:56 up 39 days,  5:13, 21 users,  load average: 0.75, 0.26, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  3.0%sy,  0.2%ni, 88.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391560k used, 53925984k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126255972k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:00.94 rt_batchsize_te    
+
+
+top - 15:41:57 up 39 days,  5:13, 21 users,  load average: 0.75, 0.26, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.9%us,  3.6%sy,  0.2%ni, 87.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390988k used, 53926556k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256004k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:01.94 rt_batchsize_te    
+
+
+top - 15:41:58 up 39 days,  5:13, 21 users,  load average: 0.75, 0.26, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.0%sy,  0.1%ni, 88.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390244k used, 53927300k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256012k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:02.95 rt_batchsize_te   
+
+
+top - 15:41:59 up 39 days,  5:13, 21 users,  load average: 0.77, 0.28, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.9%sy,  0.1%ni, 89.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391312k used, 53926232k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256020k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:03.94 rt_batchsize_te    
+
+
+top - 15:42:00 up 39 days,  5:13, 21 users,  load average: 0.77, 0.28, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  3.5%sy,  0.6%ni, 87.7%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144391968k used, 53925576k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256036k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:04.94 rt_batchsize_te    
+
+
+top - 15:42:01 up 39 days,  5:13, 21 users,  load average: 0.77, 0.28, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.5%sy,  0.1%ni, 89.4%id,  0.1%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395504k used, 53922040k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256044k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:05.94 rt_batchsize_te    
+
+
+top - 15:42:02 up 39 days,  5:13, 21 users,  load average: 0.77, 0.28, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.3%sy,  0.1%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391872k used, 53925672k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256060k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:06.94 rt_batchsize_te    
+
+
+top - 15:42:03 up 39 days,  5:13, 21 users,  load average: 0.77, 0.28, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.3%sy,  0.1%ni, 89.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392244k used, 53925300k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256064k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:07.93 rt_batchsize_te    
+
+
+top - 15:42:04 up 39 days,  5:13, 21 users,  load average: 0.79, 0.29, 0.31
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.4%us,  2.5%sy,  0.0%ni, 89.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390248k used, 53927296k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256072k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:08.94 rt_batchsize_te   
+
+
+top - 15:42:05 up 39 days,  5:13, 21 users,  load average: 0.79, 0.29, 0.31
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.7%sy,  0.0%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390976k used, 53926568k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256076k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:09.94 rt_batchsize_te    
+
+
+top - 15:42:06 up 39 days,  5:13, 21 users,  load average: 0.79, 0.29, 0.31
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.4%sy,  0.1%ni, 88.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391520k used, 53926024k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256080k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:10.93 rt_batchsize_te    
+
+
+top - 15:42:07 up 39 days,  5:13, 21 users,  load average: 0.79, 0.29, 0.31
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.7%sy,  0.1%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144392380k used, 53925164k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256144k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:11.94 rt_batchsize_te   
+
+
+top - 15:42:08 up 39 days,  5:13, 21 users,  load average: 0.79, 0.29, 0.31
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.8%sy,  0.0%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391528k used, 53926016k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256156k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:12.94 rt_batchsize_te    
+
+
+top - 15:42:09 up 39 days,  5:13, 21 users,  load average: 1.04, 0.35, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  2.2%sy,  0.1%ni, 89.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144394744k used, 53922800k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256164k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:13.94 rt_batchsize_te    
+
+
+top - 15:42:10 up 39 days,  5:13, 21 users,  load average: 1.04, 0.35, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.6%us,  2.8%sy,  0.5%ni, 88.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391964k used, 53925580k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256236k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:14.94 rt_batchsize_te    
+
+
+top - 15:42:11 up 39 days,  5:13, 21 users,  load average: 1.04, 0.35, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.9%sy,  0.1%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392504k used, 53925040k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256252k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:15.94 rt_batchsize_te    
+
+
+top - 15:42:12 up 39 days,  5:13, 21 users,  load average: 1.04, 0.35, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.7%us,  2.6%sy,  0.1%ni, 88.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391636k used, 53925908k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256272k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:16.93 rt_batchsize_te    
+
+
+top - 15:42:13 up 39 days,  5:13, 21 users,  load average: 1.04, 0.35, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.3%sy,  0.0%ni, 89.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391620k used, 53925924k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256312k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:17.94 rt_batchsize_te   
+
+
+top - 15:42:14 up 39 days,  5:13, 21 users,  load average: 1.04, 0.36, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.6%sy,  0.0%ni, 89.4%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144392104k used, 53925440k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256312k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:18.94 rt_batchsize_te    
+
+
+top - 15:42:15 up 39 days,  5:13, 21 users,  load average: 1.04, 0.36, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.0%sy,  0.1%ni, 88.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391764k used, 53925780k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256324k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:19.94 rt_batchsize_te    
+
+
+top - 15:42:16 up 39 days,  5:13, 21 users,  load average: 1.04, 0.36, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.2%sy,  0.1%ni, 88.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392192k used, 53925352k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256328k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:20.93 rt_batchsize_te    
+
+
+top - 15:42:17 up 39 days,  5:13, 21 users,  load average: 1.04, 0.36, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.2%sy,  0.1%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395360k used, 53922184k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256336k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:21.94 rt_batchsize_te   
+
+
+top - 15:42:18 up 39 days,  5:13, 21 users,  load average: 1.04, 0.36, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.2%sy,  0.0%ni, 89.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392852k used, 53924692k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256320k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:22.94 rt_batchsize_te    
+
+
+top - 15:42:19 up 39 days,  5:13, 21 users,  load average: 1.04, 0.37, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.7%sy,  0.0%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144390560k used, 53926984k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256336k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:23.93 rt_batchsize_te    
+
+
+top - 15:42:20 up 39 days,  5:13, 21 users,  load average: 1.04, 0.37, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.5%sy,  0.7%ni, 87.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391456k used, 53926088k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256348k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:24.94 rt_batchsize_te   
+
+
+top - 15:42:21 up 39 days,  5:13, 21 users,  load average: 1.04, 0.37, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.7%sy,  0.0%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391712k used, 53925832k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256352k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:25.93 rt_batchsize_te    
+
+
+top - 15:42:22 up 39 days,  5:13, 21 users,  load average: 1.04, 0.37, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.5%sy,  0.0%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391592k used, 53925952k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256372k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:26.93 rt_batchsize_te    
+
+
+top - 15:42:23 up 39 days,  5:13, 21 users,  load average: 1.04, 0.37, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.5%sy,  0.0%ni, 89.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390840k used, 53926704k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256372k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:27.93 rt_batchsize_te    
+
+
+top - 15:42:24 up 39 days,  5:13, 21 users,  load average: 1.03, 0.38, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.5%sy,  0.1%ni, 89.4%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144390956k used, 53926588k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256372k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.0  0.6   1:28.93 rt_batchsize_te   
+
+
+top - 15:42:25 up 39 days,  5:13, 21 users,  load average: 1.03, 0.38, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.2%sy,  0.0%ni, 89.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144393992k used, 53923552k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256380k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:29.94 rt_batchsize_te   
+
+
+top - 15:42:26 up 39 days,  5:13, 21 users,  load average: 1.03, 0.38, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.5%sy,  0.2%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392160k used, 53925384k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256380k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:30.93 rt_batchsize_te    
+
+
+top - 15:42:27 up 39 days,  5:13, 21 users,  load average: 1.03, 0.38, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.8%us,  3.6%sy,  0.1%ni, 87.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390996k used, 53926548k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256400k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:31.94 rt_batchsize_te   
+
+
+top - 15:42:28 up 39 days,  5:13, 21 users,  load average: 1.03, 0.38, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.7%us,  2.9%sy,  0.2%ni, 88.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391020k used, 53926524k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256408k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:32.93 rt_batchsize_te    
+
+
+top - 15:42:29 up 39 days,  5:13, 21 users,  load average: 1.03, 0.39, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.7%sy,  0.1%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391336k used, 53926208k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256416k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:33.93 rt_batchsize_te    
+
+
+top - 15:42:30 up 39 days,  5:13, 21 users,  load average: 1.03, 0.39, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.3%sy,  0.7%ni, 87.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392376k used, 53925168k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256540k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:34.93 rt_batchsize_te    
+
+
+top - 15:42:31 up 39 days,  5:13, 21 users,  load average: 1.03, 0.39, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  3.1%sy,  0.0%ni, 88.8%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144391692k used, 53925852k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256544k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:35.93 rt_batchsize_te    
+
+
+top - 15:42:32 up 39 days,  5:13, 21 users,  load average: 1.03, 0.39, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.6%us,  2.6%sy,  0.1%ni, 88.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390104k used, 53927440k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256596k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:36.93 rt_batchsize_te    
+
+
+top - 15:42:33 up 39 days,  5:13, 21 users,  load average: 1.03, 0.39, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.0%sy,  0.0%ni, 90.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392280k used, 53925264k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256612k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:37.93 rt_batchsize_te    
+
+
+top - 15:42:34 up 39 days,  5:13, 21 users,  load average: 1.11, 0.42, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.5%us,  2.2%sy,  0.0%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144388772k used, 53928772k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256648k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:38.93 rt_batchsize_te    
+
+
+top - 15:42:35 up 39 days,  5:13, 21 users,  load average: 1.11, 0.42, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.3%us,  3.0%sy,  0.1%ni, 88.5%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144390856k used, 53926688k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256668k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:39.93 rt_batchsize_te    
+
+
+top - 15:42:36 up 39 days,  5:13, 21 users,  load average: 1.11, 0.42, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  3.2%sy,  0.2%ni, 88.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391588k used, 53925956k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256676k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:40.93 rt_batchsize_te    
+
+
+top - 15:42:37 up 39 days,  5:13, 21 users,  load average: 1.11, 0.42, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.8%sy,  0.0%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144391980k used, 53925564k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256736k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:41.93 rt_batchsize_te    
+
+
+top - 15:42:38 up 39 days,  5:13, 21 users,  load average: 1.11, 0.42, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.0%sy,  0.1%ni, 88.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391624k used, 53925920k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256744k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:42.93 rt_batchsize_te    
+
+
+top - 15:42:39 up 39 days,  5:13, 21 users,  load average: 1.10, 0.43, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.9%sy,  0.0%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391724k used, 53925820k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256760k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:43.92 rt_batchsize_te    
+
+
+top - 15:42:40 up 39 days,  5:13, 21 users,  load average: 1.10, 0.43, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  3.3%sy,  0.7%ni, 88.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392508k used, 53925036k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256712k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:44.93 rt_batchsize_te   
+
+
+top - 15:42:41 up 39 days,  5:13, 21 users,  load average: 1.10, 0.43, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.3%sy,  0.0%ni, 89.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395728k used, 53921816k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256724k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:45.93 rt_batchsize_te    
+
+
+top - 15:42:42 up 39 days,  5:13, 21 users,  load average: 1.10, 0.43, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.0%sy,  0.0%ni, 89.9%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144391124k used, 53926420k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256732k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:46.93 rt_batchsize_te    
+
+
+top - 15:42:43 up 39 days,  5:13, 21 users,  load average: 1.10, 0.43, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.4%sy,  0.0%ni, 89.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391332k used, 53926212k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256784k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:47.93 rt_batchsize_te    
+
+
+top - 15:42:44 up 39 days,  5:13, 21 users,  load average: 1.09, 0.44, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.7%sy,  0.0%ni, 89.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144390868k used, 53926676k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256788k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:48.93 rt_batchsize_te    
+
+
+top - 15:42:45 up 39 days,  5:13, 21 users,  load average: 1.09, 0.44, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.9%sy,  0.1%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144391464k used, 53926080k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256820k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:49.92 rt_batchsize_te    
+
+
+top - 15:42:46 up 39 days,  5:14, 21 users,  load average: 1.09, 0.44, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  3.2%sy,  0.1%ni, 88.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392708k used, 53924836k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256820k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:50.92 rt_batchsize_te    
+
+
+top - 15:42:47 up 39 days,  5:14, 21 users,  load average: 1.09, 0.44, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.8%sy,  0.0%ni, 89.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392596k used, 53924948k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256840k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:51.93 rt_batchsize_te   
+
+
+top - 15:42:48 up 39 days,  5:14, 21 users,  load average: 1.09, 0.44, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.7%sy,  0.1%ni, 89.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144392584k used, 53924960k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256880k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   1:52.93 rt_batchsize_te    
+
+
+top - 15:42:49 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  2.2%sy,  0.0%ni, 89.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144396476k used, 53921068k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256848k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:53.92 rt_batchsize_te    
+
+
+top - 15:42:50 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.8%sy,  0.7%ni, 88.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144393468k used, 53924076k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256976k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:54.93 rt_batchsize_te   
+
+
+top - 15:42:51 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  3.1%sy,  0.2%ni, 88.7%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144394072k used, 53923472k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256980k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:55.92 rt_batchsize_te    
+
+
+top - 15:42:52 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.5%us,  2.7%sy,  0.0%ni, 88.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144393224k used, 53924320k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257004k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:56.93 rt_batchsize_te   
+
+
+top - 15:42:53 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  2.5%sy,  0.1%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144393324k used, 53924220k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257000k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:57.92 rt_batchsize_te    
+
+
+top - 15:42:54 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.5%sy,  0.0%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144393944k used, 53923600k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257012k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   1:58.93 rt_batchsize_te   
+
+
+top - 15:42:55 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.8%sy,  0.1%ni, 89.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144394040k used, 53923504k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257020k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   1:59.92 rt_batchsize_te    
+
+
+top - 15:42:56 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.7%us,  2.9%sy,  0.2%ni, 89.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144393796k used, 53923748k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257020k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:00.92 rt_batchsize_te    
+
+
+top - 15:42:57 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.9%us,  3.4%sy,  0.2%ni, 87.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144397708k used, 53919836k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257036k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   2:01.93 rt_batchsize_te   
+
+
+top - 15:42:58 up 39 days,  5:14, 21 users,  load average: 1.08, 0.45, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.5%sy,  0.2%ni, 89.0%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144395532k used, 53922012k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126256984k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   2:02.92 rt_batchsize_te    
+
+
+top - 15:42:59 up 39 days,  5:14, 21 users,  load average: 1.07, 0.46, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.6%sy,  0.0%ni, 89.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395172k used, 53922372k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257016k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:03.92 rt_batchsize_te    
+
+
+top - 15:43:00 up 39 days,  5:14, 21 users,  load average: 1.07, 0.46, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  3.2%sy,  0.6%ni, 88.3%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395528k used, 53922016k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257028k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:04.92 rt_batchsize_te    
+
+
+top - 15:43:01 up 39 days,  5:14, 21 users,  load average: 1.07, 0.46, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  3.2%sy,  0.1%ni, 88.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144394500k used, 53923044k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257032k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:05.92 rt_batchsize_te    
+
+
+top - 15:43:02 up 39 days,  5:14, 21 users,  load average: 1.07, 0.46, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.3%sy,  0.0%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144394120k used, 53923424k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257044k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:06.92 rt_batchsize_te    
+
+
+top - 15:43:03 up 39 days,  5:14, 21 users,  load average: 1.07, 0.46, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.8%us,  2.6%sy,  0.1%ni, 89.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395276k used, 53922268k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257044k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:07.92 rt_batchsize_te    
+
+
+top - 15:43:04 up 39 days,  5:14, 21 users,  load average: 1.06, 0.47, 0.37
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.0%us,  2.4%sy,  0.0%ni, 89.5%id,  0.0%wa,  0.0%hi,  0.1%si,  0.0%st
+Mem:  198317544k total, 144395228k used, 53922316k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257052k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:08.92 rt_batchsize_te    
+
+
+top - 15:43:05 up 39 days,  5:14, 21 users,  load average: 1.06, 0.47, 0.37
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.4%sy,  0.0%ni, 89.5%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144399044k used, 53918500k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257060k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:09.92 rt_batchsize_te    
+
+
+top - 15:43:06 up 39 days,  5:14, 21 users,  load average: 1.06, 0.47, 0.37
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.1%us,  2.6%sy,  0.2%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395728k used, 53921816k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257072k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   2:10.91 rt_batchsize_te    
+
+
+top - 15:43:07 up 39 days,  5:14, 21 users,  load average: 1.06, 0.47, 0.37
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  2.7%sy,  0.0%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395368k used, 53922176k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257136k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   2:11.92 rt_batchsize_te   
+
+
+top - 15:43:08 up 39 days,  5:14, 21 users,  load average: 1.06, 0.47, 0.37
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.6%sy,  0.1%ni, 89.4%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144395608k used, 53921936k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126257144k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:12.92 rt_batchsize_te    
+
+
+top - 15:43:09 up 39 days,  5:14, 21 users,  load average: 1.14, 0.50, 0.38
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  7.9%us,  2.9%sy,  0.0%ni, 89.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144288960k used, 54028584k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126149684k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   2:13.91 rt_batchsize_te    
+
+
+top - 15:43:10 up 39 days,  5:14, 21 users,  load average: 1.14, 0.50, 0.38
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.7%us,  2.5%sy,  0.7%ni, 88.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144318316k used, 53999228k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126177812k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 100.9  0.6   2:14.92 rt_batchsize_te   
+
+
+top - 15:43:11 up 39 days,  5:14, 21 users,  load average: 1.14, 0.50, 0.38
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.6%us,  1.8%sy,  0.0%ni, 89.6%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144346604k used, 53970940k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126206380k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 99.9  0.6   2:15.92 rt_batchsize_te    
+
+
+top - 15:43:12 up 39 days,  5:14, 21 users,  load average: 1.14, 0.50, 0.38
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  8.2%us,  1.6%sy,  0.1%ni, 90.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  198317544k total, 144375276k used, 53942268k free,  3830488k buffers
+Swap:        0k total,        0k used,        0k free, 126235152k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0  239g 1.2g 372m R 98.9  0.6   2:16.91 rt_batchsize_te    
+
+
+top - 15:43:13 up 39 days,  5:14, 21 users,  load average: 1.14, 0.50, 0.38
+Tasks:   1 total,   0 running,   0 sleeping,   0 stopped,   1 zombie
+Cpu(s):  6.6%us,  3.2%sy,  0.0%ni, 89.9%id,  0.2%wa,  0.0%hi,  0.2%si,  0.0%st
+Mem:  198317544k total, 143362516k used, 54955028k free,  3830492k buffers
+Swap:        0k total,        0k used,        0k free, 126065336k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 2517 qa_work   20   0     0    0    0 Z 97.9  0.0   2:17.89 rt_batchs <defunct>

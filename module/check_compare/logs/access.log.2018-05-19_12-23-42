@@ -1,0 +1,5 @@
+INFO: 2018-05-19 12:23:11,174: beyond_compared.py:218 * PASS: src(/home/qa_work/CI/workspace/sys_anakin_compare_output/yolo_lane_v2/output/EQ027_12_1494903538_1494904316_2305.jpg.txt) vs dst(/home/qa_work/CI/workspace/sys_anakin_compare_output/yolo_lane_v2/images_output/EQ027_12_1494903538_1494904316_2305.jpg.txt)
+INFO: 2018-05-19 12:23:42,880: load_common.py:68 * start create the table : log_monitor
+INFO: 2018-05-19 12:23:42,908: load_common.py:71 * create the table log_monitor_k1200 sucess~~
+INFO: 2018-05-19 12:23:42,908: load_common.py:81 * start instert the sql
+INFO: 2018-05-19 12:23:43,040: load_common.py:84 * insert into log_monitor_k1200 success!!!
