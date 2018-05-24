@@ -25,11 +25,11 @@ import mylogging
 
 GLOBAL_TIME_INTERVAL = 1
 
-def get_monitor_prog_pid(model):
+def get_monitor_prog_pid(model, gpu_card):
     #TODO
     conf_name = "conf_%s" % model
     try:
-        cmd = cf.get(conf_name, "tensorrt_ps_cmd")
+        cmd = cf.get(conf_name, "tensorrt_ps_cmd") % gpu_card
     except Exception as e:
         print ("\033[0;31;m[error]: Pls Check The Modle input wrong!\033[0m")
         sys.exit(1)
@@ -71,7 +71,7 @@ def monitor_anakin_prog(time_interval, gpu_result_file, top_result_file, pid):
     print "vvvvvvvvvvvvvvvvvvvvv"
    
 
-def jorcold_start_test_yolo(gpu_result_file, top_result_file, ut_yolo_path, jorcold_start_cmd, model):
+def jorcold_start_test_yolo(gpu_result_file, top_result_file, ut_yolo_path, jorcold_start_cmd, model, gpu_card):
     """
     Start The UT Test In yolo Module
     """
@@ -85,7 +85,7 @@ def jorcold_start_test_yolo(gpu_result_file, top_result_file, ut_yolo_path, jorc
 
     # 1.change path to pwd
     os.chdir(current_path)
-    pid = get_monitor_prog_pid(model)
+    pid = get_monitor_prog_pid(model, gpu_card)
     if pid == -1:
         sys.exit(1)
     elif pid == -2:
@@ -108,20 +108,39 @@ if __name__ == '__main__':
 
     cf = ConfigParser.ConfigParser()
     cf.read("../conf/load_config.conf")
-    if len(sys.argv) == 3:
+    if len(sys.argv) == 4:
         #TODO
         model = sys.argv[1]
         batch_size = sys.argv[2]
+        gpu_card = sys.argv[3]
         conf_name = "conf_%s" % model
         try:
             #write dead---no need from config
             #gpu_result_file = cf.get(conf_name, "gpu_result_filename")
             #top_result_file = cf.get(conf_name, "top_result_filename")
-            gpu_result_file = "tensorrt_gpu_result_filename.txt"
-            top_result_file = "tensorrt_top_result_filename.txt"
+            gpu_result_file = "tensorrt_gpu_result_filename_%s.txt" % gpu_card
+            top_result_file = "tensorrt_top_result_filename_%s.txt" % gpu_card
             #ut_yolo_path = cf.get(conf_name, "tensorrt_ut_yolo_path")
             ut_yolo_path = "/home/qa_work/CI/workspace/sys_tensorRT_merge_build/output"
-            jorcold_start_cmd = cf.get(conf_name, "tensorrt_jorcold_start_cmd") % batch_size
+            jorcold_start_cmd = cf.get(conf_name, "tensorrt_jorcold_start_cmd") % (gpu_card, batch_size)
+        except Exception as e:
+            print ("\033[0;31;m[error]: Pls Check The Modle input wrong!\033[0m")
+            sys.exit(1)
+    if len(sys.argv) == 3:
+        #TODO
+        model = sys.argv[1]
+        batch_size = sys.argv[2]
+        gpu_card = "p4"
+        conf_name = "conf_%s" % model
+        try:
+            #write dead---no need from config
+            #gpu_result_file = cf.get(conf_name, "gpu_result_filename")
+            #top_result_file = cf.get(conf_name, "top_result_filename")
+            gpu_result_file = "tensorrt_gpu_result_filename_%s.txt" % gpu_card
+            top_result_file = "tensorrt_top_result_filename_%s.txt" % gpu_card
+            #ut_yolo_path = cf.get(conf_name, "tensorrt_ut_yolo_path")
+            ut_yolo_path = "/home/qa_work/CI/workspace/sys_tensorRT_merge_build/output"
+            jorcold_start_cmd = cf.get(conf_name, "tensorrt_jorcold_start_cmd") % (gpu_card, batch_size)
         except Exception as e:
             print ("\033[0;31;m[error]: Pls Check The Modle input wrong!\033[0m")
             sys.exit(1)
@@ -129,17 +148,18 @@ if __name__ == '__main__':
         #TODO
         # if not input batch_size, we use batch_size=1
         batch_size = 1
+        gpu_card = "p4"
         model = sys.argv[1]
         conf_name = "conf_%s" % model
         try:
             #write dead---no need from config
             #gpu_result_file = cf.get(conf_name, "gpu_result_filename")
             #top_result_file = cf.get(conf_name, "top_result_filename")
-            gpu_result_file = "tensorrt_gpu_result_filename.txt"
-            top_result_file = "tensorrt_top_result_filename.txt"
+            gpu_result_file = "tensorrt_gpu_result_filename_%s.txt" % gpu_card
+            top_result_file = "tensorrt_top_result_filename_%s.txt" % gpu_card
             #ut_yolo_path = cf.get(conf_name, "tensorrt_ut_yolo_path")
             ut_yolo_path = "/home/qa_work/CI/workspace/sys_tensorRT_merge_build/output"
-            jorcold_start_cmd = cf.get(conf_name, "tensorrt_jorcold_start_cmd") % batch_size
+            jorcold_start_cmd = cf.get(conf_name, "tensorrt_jorcold_start_cmd") % (gpu_card, batch_size)
         except Exception as e:
             print ("\033[0;31;m[error]: Pls Check The Modle input wrong!\033[0m")
             sys.exit(1)
@@ -149,12 +169,13 @@ if __name__ == '__main__':
         #top_result_file = cf.get("conf_yolo", "top_result_filename")
         # if not input batch_size, we use batch_size=1
         batch_size = 1
+        gpu_card = "p4"
         model = "yolo"
-        gpu_result_file = "tensorrt_gpu_result_filename.txt"
-        top_result_file = "tensorrt_top_result_filename.txt"
+        gpu_result_file = "tensorrt_gpu_result_filename_%s.txt" % gpu_card
+        top_result_file = "tensorrt_top_result_filename_%s.txt" % gpu_card
         #ut_yolo_path = cf.get("conf_yolo", "tensorrt_ut_yolo_path")
         ut_yolo_path = "/home/qa_work/CI/workspace/sys_tensorRT_merge_build/output"
-        jorcold_start_cmd = cf.get("conf_yolo", "tensorrt_jorcold_start_cmd") % batch_size
+        jorcold_start_cmd = cf.get("conf_yolo", "tensorrt_jorcold_start_cmd") % (gpu_card, batch_size)
 
-    jorcold_start_test_yolo(gpu_result_file, top_result_file, ut_yolo_path, jorcold_start_cmd, model)
+    jorcold_start_test_yolo(gpu_result_file, top_result_file, ut_yolo_path, jorcold_start_cmd, model, gpu_card)
 

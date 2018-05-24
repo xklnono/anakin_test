@@ -65,4 +65,3 @@ if __name__ == '__main__':
         truncate_table_sql(model, batch_size)
     else:
         print "xxxxxxxxxxxxinput error!!!!xxxxxxxxxxxx"
-        sys.exit(1)

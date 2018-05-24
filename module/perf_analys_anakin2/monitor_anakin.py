@@ -161,8 +161,8 @@ if __name__ == '__main__':
         batch_size = 1
         gpu_card = "p4"
         model = "yolo"
-        gpu_result_file = "anakin2_gpu_result_filename.txt"
-        top_result_file = "anakin2_top_result_filename.txt"
+        gpu_result_file = "anakin2_gpu_result_filename_%s.txt" % gpu_card
+        top_result_file = "anakin2_top_result_filename_%s.txt" % gpu_card
         ut_yolo_path = cf.get("conf_yolo", "anakin2_ut_yolo_path")
         jorcold_start_cmd = cf.get("conf_yolo", "anakin2_jorcold_start_cmd") % (gpu_card, batch_size)
 
