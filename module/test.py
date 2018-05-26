@@ -12,7 +12,7 @@ import ConfigParser
 import json
 import urllib
 import urllib2
-import MysqlHelper as mysql_helper
+#import MysqlHelper as mysql_helper
 
 
 if __name__ == '__main__':
