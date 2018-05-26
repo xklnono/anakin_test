@@ -1,0 +1,25 @@
+language: python
+cache: ccache
+sudo: required
+dist: trusty
+
+script:
+  - PATH=/usr/local/bin:$PATH
+  - |
+    #export PATH=/home/scmtools/cmake-3.2.2/bin/:$PATH
+    export ANAKIN_ROOT=`pwd`
+    cd module
+    python test.py 123 asdf
+
+branches:
+  only:
+  - master
+  - develop
+
+notifications:
+  email:
+    recipients:
+    - xukailu@baidu.com
+    on_success: change
+    on_failure: always
+
