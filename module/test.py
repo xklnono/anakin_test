@@ -18,5 +18,6 @@ if __name__ == '__main__':
     if len(sys.argv) == 3:
         model = sys.argv[1]
         batch_size = sys.argv[2]
+        print "xxxxxxxxxxxxinput right, model: %s, batch_size: %sxxxxxxxxxxxx" % (model, batch_size)
     else:
         print "xxxxxxxxxxxxinput error!!!!xxxxxxxxxxxx"
