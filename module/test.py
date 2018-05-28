@@ -21,7 +21,7 @@ if __name__ == '__main__':
         model = sys.argv[1]
         batch_size = sys.argv[2]
         print "xxxxxxxxxxxxinput right, model: %s, batch_size: %sxxxxxxxxxxxx" % (model, batch_size)
-        sys.exit(4)
+        sys.exit(0)
     else:
         print "xxxxxxxxxxxxinput error!!!!xxxxxxxxxxxx"
-        sys.exit(2)
+        sys.exit(1)
