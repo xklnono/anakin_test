@@ -5,7 +5,7 @@ sudo: required
 dist: trusty
 
 install: 
-  - sudo pip install MySQL-python
+  - sudo pip install -r requirements.txt
 
 script:
   - cd module
