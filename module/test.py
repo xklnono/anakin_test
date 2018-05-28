@@ -12,7 +12,6 @@ import ConfigParser
 import json
 import urllib
 import urllib2
-import MysqlHelper as mysql_helper
 
 
 
