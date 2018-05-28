@@ -5,6 +5,20 @@ sudo: required
 dist: trusty
 
 
+
 script:
   - cd module
     python test.py 123 asdf
+
+branches:
+  only:
+  - master
+  - develop
+
+notifications:
+  email:
+    recipients:
+    - xukailu@baidu.com
+    - xklnono@126.com
+    on_success: change
+    on_failure: always
