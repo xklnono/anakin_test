@@ -1,28 +1,7 @@
 language: python
 python:
   - "2.7"
-sudo: required
-dist: trusty
-
-install
-  - pip install MySQLdb
 
 script:
-  - PATH=/usr/local/bin:$PATH
-    export ANAKIN_ROOT=`pwd`
-    cd module
+  - cd module
     python test.py 123 asdf
-
-branches:
-  only:
-  - master
-  - develop
-
-notifications:
-  email:
-    recipients:
-    - xukailu@baidu.com
-    - xklnono@126.com
-    on_success: change
-    on_failure: always
-
