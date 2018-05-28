@@ -6,7 +6,6 @@ dist: trusty
 
 install: 
   - sudo pip install MySQL-python
-  - sudo pip install MySQLdb
 
 script:
   - cd module
@@ -21,6 +20,5 @@ notifications:
   email:
     recipients:
     - xukailu@baidu.com
-    - xklnono@126.com
     on_success: change
     on_failure: always
