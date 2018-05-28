@@ -8,7 +8,7 @@ dist: trusty
 
 script:
   - cd module
-    python test.py 123 asdf
+  - python test.py 123 asdf
 
 branches:
   only:
