@@ -1,0 +1,252 @@
+/**
+ *
+ */ 
+
+#include "rt_infer.h"
+#include "rt_net.h"
+#include <sys/time.h>
+#include "rt/rt_common.h"
+#include "rt/anakin_rt.pb.h"
+#include "rt/EntropyCalibrator.h"
+#include "rt/BatchStream.h"
+#include "utils/logger.h"
+#ifdef USE_OPENCV
+#include <opencv2/opencv.hpp>
+#endif
+
+using namespace anakin;
+using namespace nvinfer1;
+
+#define DEFINE_GLOBAL(type, var, value) \
+		type (GLB_##var) = (value)
+
+DEFINE_GLOBAL(int, gpu, 0);
+DEFINE_GLOBAL(std::string, model, "");
+DEFINE_GLOBAL(std::string, weights, "");
+DEFINE_GLOBAL(int, batch_size, 1);
+
+DEFINE_GLOBAL(int, offset_y, 0);
+DEFINE_GLOBAL(bool, rgb, false);
+DEFINE_GLOBAL(bool, vis, false);
+DEFINE_GLOBAL(std::string, camera_detector, "dummyCD");
+DEFINE_GLOBAL(std::string, test_list, "/home/qa_work/CI/workspace/sys_anakin_compare_output/src_name/tail.list");
+DEFINE_GLOBAL(std::string, image_root, "/home/qa_work/CI/workspace/sys_anakin_compare_output/src_name/");
+DEFINE_GLOBAL(std::string, image_result, "/home/qa_work/CI/workspace/sys_anakin_compare_output/model_name/output/");
+DEFINE_GLOBAL(std::string, time_result, "/home/qa_work/CI/workspace/sys_anakin_compare_output/model_name/time/");
+
+#ifdef USE_OPENCV
+void fill_image_data_yolo(const cv::Mat& img, float * gpu_data, int num){
+    int elem_num = img.channels() * img.rows * img.cols * num;
+    float * cpu_data = new float[elem_num];
+    int idx = 0;
+    float scale = 1.0f / 255;
+    int img_size =  img.channels() * img.rows * img.cols;
+    for (int n = 0; n < num; n++) {
+        for(int w = 0; w < img_size; w++) {
+            //cpu_data[idx] = img.data[idx] * scale;
+            //cpu_data[idx] = img.data[idx];
+            cpu_data[idx] = img.data[w];
+            //cpu_data[idx] = 1.0f;
+            //cpu_data[idx] = std::rand()*1.0f/RAND_MAX -0.5;
+            idx++;
+        }
+    }
+    cudaMemcpy((void*)gpu_data, (void*)cpu_data, elem_num* sizeof(float), cudaMemcpyHostToDevice);
+    delete[] cpu_data;
+}
+
+double msecond()
+{
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+    return (double)tv.tv_sec*1000.0 + (double)tv.tv_usec / 1000.0;
+}
+
+int evaluate_image_list(anakin::RTInfer<float>& inference, IInt8Calibrator* calibrator)
+{  
+    if(! inference.initNet(GLB_model, GLB_weights, calibrator, GLB_batch_size)){
+        LOG(ERROR) << "network init error. " ;
+        return -1;
+    }
+
+    anakin::RTNet<float>* net;
+    net = static_cast<anakin::RTNet<float>*>(inference.getNetwork());
+    CHECK_NE(net, NULL) << "network is NOT available";
+
+    anakin::Tensor<float> * in_tensor = inference.getInputTensors()[0];
+    anakin::Tensor<float> * out_tensor = inference.getOutputTensors()[0];
+    std::vector<void* > buffers = inference.getBuffers();
+
+    float loss = 0.0f;
+    int height = in_tensor->height();
+    int width = in_tensor->width();
+    int num = in_tensor->num();
+
+    LOG(INFO) << "input tensor num is: " << num ;
+
+    std::ifstream fin;
+    fin.open(GLB_test_list, std::ifstream::in);
+    if(! fin.is_open()){
+        LOG(ERROR) << "Failed to open test list file: " << GLB_test_list;
+        return -1;
+    }
+
+    std::string image_name;
+    int img_num = 0;
+    float total_time = 0.0f;
+    float ava_time = 0.0f;
+    int really_img_num = 0;
+    int count = 0;
+    int group = 0;
+    while(fin >> image_name){
+        img_num++;
+        std::string image_path = GLB_image_root + image_name;
+        cv::Mat img = cv::imread(image_path, CV_LOAD_IMAGE_COLOR);
+        cv::Mat img_org;
+        img.copyTo(img_org);
+
+        cv::Rect roi(0, GLB_offset_y, img.cols, img.rows - GLB_offset_y);
+        cv::Mat img_roi = img(roi);
+        img_roi.copyTo(img);
+
+        if (img.data == 0) {
+            LOG(ERROR) << "Failed to read iamge: " << image_path;
+            return -1;
+        }
+
+        int org_width = img.cols;
+        int org_height = img.rows;
+        cv::resize(img, img, cv::Size(height, width));
+        if (GLB_rgb) {
+            cv::cvtColor(img, img, CV_BGR2RGB);
+        }
+        float * input_gpu_data = (float*)(buffers[0]);
+        fill_image_data_yolo(img, input_gpu_data, num);
+        cudaDeviceSynchronize();
+        //pre heat inference.execute() pre_heat-10 times
+        int pre_heat = 10;
+        bool infer_ret;
+        for(int i = 0; i < pre_heat; i++){
+           //LOG(INFO)<<"iteration: "<<i;
+           infer_ret = inference.execute();
+           cudaDeviceSynchronize();
+        }
+
+        //do while inference.execute() epoch-1000 times
+        int epoch = 1000;
+        double t1, t2;
+        double t;
+        t1 = msecond();
+        for(int i = 0; i < epoch ;i++){
+            //LOG(INFO)<<"iteration: "<<i;
+            infer_ret = inference.execute();
+            cudaDeviceSynchronize();
+        }
+        t2 = msecond();
+        t = (t2 - t1) / epoch;
+        LOG(INFO)<<"[qa] epoch = "<< epoch <<" >>>>>>>>>>>elapse time: "<< t <<" ms "<<std::endl;
+        total_time += t;
+
+        cudaDeviceSynchronize();
+
+        const std::vector<Tensor<float> *>&  input_tensors = inference.getInputTensors();
+        const std::vector<Tensor<float> *>&  output_tensors = inference.getOutputTensors();
+        for (int i = 0; i < output_tensors.size(); i++) {
+            float* out_cpu_data = output_tensors[i]->cpu_data();
+            float* out_gpu_data  = (float*)(buffers[input_tensors.size() + i]);
+            int out_count  = output_tensors[i]->count();
+            cudaMemcpy((void*)out_cpu_data, (void*)out_gpu_data, out_count * sizeof(float), cudaMemcpyDeviceToHost);
+        }
+        cudaDeviceSynchronize();
+        
+        if (infer_ret)
+            std::cout << "Seems inference goes well" << std::endl;
+        else {
+            std::cout << "Seems inference failed " << std::endl;
+        }
+	    LOG(INFO) << "output_tensors.size = " << output_tensors.size();
+	    LOG(INFO) << "input_tensors.size = " << input_tensors.size();
+
+
+        FILE *outfp = NULL;
+        outfp = fopen((GLB_image_result + image_name + ".txt").c_str(), "w+");
+        for (int j = 0; j < output_tensors.size(); j++) {
+            output_tensors[j]->fprintBuf(outfp);
+        }
+
+        ava_time = total_time / img_num ;
+        LOG(INFO) << "image num:" << img_num ;
+        LOG(INFO) << "total time is :" << total_time << "ms"<< std::endl;
+        LOG(INFO) << "avarage time is :" << ava_time << "ms" << std::endl;
+    
+        std::ofstream fp;
+        fp.open((GLB_time_result + "TensorRT_time_p4.txt").c_str());
+        fp << "image_num : " << img_num << std::endl;
+        fp << "total_time : " << total_time << "ms" << std::endl;
+        fp << "average_time : " << ava_time << "ms" << std::endl;
+        fclose(outfp);
+        fp.close();
+    }
+    fin.clear();
+    return 0;
+}
+#endif
+
+
+int evaluate_anakin_model(anakin::RTInfer<float>& inference,  IInt8Calibrator* calibrator);
+
+
+int main(int argc, char * argv[]) {
+	// default, run on GPU mode
+    if(argc < 3){
+    	LOG(FATAL) << "Example of Usage:\n \
+    	./output/unit_test/test_yolo_int8\n \
+            deploy.prototxt\n\
+            deploy.caffemodel\n ";
+    	exit(0);
+    }
+    else if (argc == 3) {
+    	GLB_model = std::string(argv[1]);
+    	GLB_weights = std::string(argv[2]);
+    }
+    else {
+        GLB_model = std::string(argv[1]);
+        GLB_weights = std::string(argv[2]);
+        GLB_batch_size = std::stoi(std::string(argv[3]));
+    }
+    {	// output 
+        LOG(INFO) << "usage gpu: " << GLB_gpu;
+        LOG(INFO) << "usage model: " << GLB_model;
+        LOG(INFO) << "usage weights: " << GLB_weights;
+        LOG(INFO) << "use batch_size: " << GLB_batch_size;
+    }
+    // Set device id and mode
+    if (GLB_gpu >= 0) {
+        LOG(INFO) << "Use GPU with device ID " << GLB_gpu;
+        int num = 3;
+        cudaGetDeviceCount(&num);
+        CHECK_LT(GLB_gpu, num) << "gpu id is not valid";
+        cudaDeviceProp device_prop;
+        cudaGetDeviceProperties(&device_prop, GLB_gpu);
+        cudaSetDevice(GLB_gpu);
+        LOG(INFO) << "GPU device name: " << device_prop.name;
+    } else {
+        LOG(INFO) << "Use CPU.";
+	exit(0);
+    }
+
+	// use GPU mode by default
+     CHECK_GE(GLB_gpu, 0) << "Use GPU mode by default";
+     ::anakin::RTInfer<float> inference;
+    // std::string data_path = "../tmp/yolo/";
+    // BatchStream calibrationStream(/*CAL_BATCH_SIZE*/2, /*NB_CAL_BATCHES*/50 , data_path);
+    // //BatchStream calibrationStream;
+    // Int8EntropyCalibrator calibrator(calibrationStream, 0/*FIRST_CAL_BATCH*/, true, "../yolo");
+    // return evaluate_image_list( inference, &calibrator);
+    
+    return evaluate_image_list( inference, nullptr);
+    // evaluate_anakin_model(inference, &calibrator);
+    //return evaluate_anakin_model(inference, nullptr);
+}
+
+
