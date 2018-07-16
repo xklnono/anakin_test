@@ -1,0 +1,357 @@
+top - 22:39:10 up 36 days,  6:56,  1 user,  load average: 11.57, 8.90, 8.57
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s):  1.1%us,  1.2%sy,  0.0%ni, 97.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170780512k used, 25647812k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329864k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 334m 6348 S 731.5  0.2   0:03.69 pairwise_demo    
+
+
+top - 22:39:11 up 36 days,  6:56,  1 user,  load average: 12.25, 9.08, 8.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.6%us, 12.5%sy,  0.0%ni, 63.9%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170827432k used, 25600892k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329848k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 378m 6348 S 1199.0  0.2   0:15.74 pairwise_demo   
+
+
+top - 22:39:12 up 36 days,  6:56,  1 user,  load average: 12.25, 9.08, 8.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.5%sy,  0.0%ni, 64.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170862448k used, 25565876k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329848k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 409m 6348 S 1199.2  0.2   0:27.78 pairwise_demo   
+
+
+top - 22:39:14 up 36 days,  6:56,  1 user,  load average: 12.25, 9.08, 8.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.3%us, 12.5%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170878212k used, 25550112k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329848k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 425m 6348 S 1200.2  0.2   0:39.83 pairwise_demo   
+
+
+top - 22:39:15 up 36 days,  6:56,  1 user,  load average: 12.25, 9.08, 8.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170892260k used, 25536064k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329848k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 438m 6348 S 1199.2  0.2   0:51.87 pairwise_demo   
+
+
+top - 22:39:16 up 36 days,  6:56,  1 user,  load average: 12.25, 9.08, 8.63
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.5%sy,  0.0%ni, 64.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170904708k used, 25523616k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329848k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 450m 6348 S 1199.2  0.2   1:03.91 pairwise_demo   
+
+
+top - 22:39:17 up 36 days,  6:56,  1 user,  load average: 12.87, 9.26, 8.70
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170905972k used, 25522352k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329848k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 451m 6348 S 1199.2  0.2   1:15.95 pairwise_demo   
+
+
+top - 22:39:18 up 36 days,  6:56,  1 user,  load average: 12.87, 9.26, 8.70
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170911596k used, 25516728k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329848k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 457m 6348 S 1199.2  0.2   1:27.99 pairwise_demo   
+
+
+top - 22:39:19 up 36 days,  6:56,  1 user,  load average: 12.87, 9.26, 8.70
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170912544k used, 25515780k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329852k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 458m 6348 S 1200.2  0.2   1:40.04 pairwise_demo   
+
+
+top - 22:39:20 up 36 days,  6:56,  1 user,  load average: 12.87, 9.26, 8.70
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170915644k used, 25512680k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329852k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 461m 6348 S 1200.2  0.2   1:52.09 pairwise_demo   
+
+
+top - 22:39:21 up 36 days,  6:56,  1 user,  load average: 12.87, 9.26, 8.70
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.5%sy,  0.0%ni, 64.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170915952k used, 25512372k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329852k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 461m 6348 S 1199.2  0.2   2:04.13 pairwise_demo   
+
+
+top - 22:39:22 up 36 days,  6:56,  1 user,  load average: 13.44, 9.44, 8.76
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170916572k used, 25511752k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329852k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 461m 6348 S 1199.2  0.2   2:16.17 pairwise_demo   
+
+
+top - 22:39:23 up 36 days,  6:56,  1 user,  load average: 13.44, 9.44, 8.76
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170916464k used, 25511860k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329852k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 461m 6348 S 1198.2  0.2   2:28.20 pairwise_demo   
+
+
+top - 22:39:24 up 36 days,  6:56,  1 user,  load average: 13.44, 9.44, 8.76
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170916172k used, 25512152k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329852k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 461m 6348 S 1200.2  0.2   2:40.25 pairwise_demo   
+
+
+top - 22:39:25 up 36 days,  6:56,  1 user,  load average: 13.44, 9.44, 8.76
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170915484k used, 25512840k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329852k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 461m 6348 S 1200.2  0.2   2:52.30 pairwise_demo   
+
+
+top - 22:39:26 up 36 days,  6:56,  1 user,  load average: 13.44, 9.44, 8.76
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.5%sy,  0.0%ni, 64.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170915752k used, 25512572k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329852k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 462m 6348 S 1199.2  0.2   3:04.34 pairwise_demo   
+
+
+top - 22:39:27 up 36 days,  6:56,  1 user,  load average: 13.96, 9.62, 8.82
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.3%us, 12.5%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170915832k used, 25512492k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329860k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 462m 6348 S 1199.2  0.2   3:16.38 pairwise_demo   
+
+
+top - 22:39:28 up 36 days,  6:56,  1 user,  load average: 13.96, 9.62, 8.82
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.6%us, 12.5%sy,  0.0%ni, 64.0%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170918244k used, 25510080k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329860k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 462m 6348 S 1199.2  0.2   3:28.42 pairwise_demo   
+
+
+top - 22:39:29 up 36 days,  6:56,  1 user,  load average: 13.96, 9.62, 8.82
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170917264k used, 25511060k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329860k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 462m 6348 S 1199.8  0.2   3:40.49 pairwise_demo   
+
+
+top - 22:39:30 up 36 days,  6:57,  1 user,  load average: 13.96, 9.62, 8.82
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.3%us, 12.5%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170925056k used, 25503268k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329860k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 470m 6348 S 1199.2  0.2   3:52.53 pairwise_demo   
+
+
+top - 22:39:31 up 36 days,  6:57,  1 user,  load average: 13.96, 9.62, 8.82
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.4%sy,  0.0%ni, 64.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170926836k used, 25501488k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329860k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 472m 6348 S 1199.2  0.2   4:04.57 pairwise_demo   
+
+
+top - 22:39:32 up 36 days,  6:57,  1 user,  load average: 14.45, 9.79, 8.88
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.3%us, 12.5%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170930348k used, 25497976k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329860k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 475m 6348 S 1199.2  0.2   4:16.61 pairwise_demo   
+
+
+top - 22:39:33 up 36 days,  6:57,  1 user,  load average: 14.45, 9.79, 8.88
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170931748k used, 25496576k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329860k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 476m 6348 S 1200.2  0.2   4:28.66 pairwise_demo   
+
+
+top - 22:39:34 up 36 days,  6:57,  1 user,  load average: 14.45, 9.79, 8.88
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170931684k used, 25496640k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329864k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 476m 6348 S 1198.2  0.2   4:40.69 pairwise_demo   
+
+
+top - 22:39:35 up 36 days,  6:57,  1 user,  load average: 14.45, 9.79, 8.88
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170931808k used, 25496516k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329864k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 477m 6348 S 1200.2  0.2   4:52.74 pairwise_demo   
+
+
+top - 22:39:36 up 36 days,  6:57,  1 user,  load average: 14.45, 9.79, 8.88
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.4%sy,  0.0%ni, 64.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170932468k used, 25495856k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329868k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 477m 6348 S 1200.2  0.2   5:04.79 pairwise_demo   
+
+
+top - 22:39:37 up 36 days,  6:57,  1 user,  load average: 14.89, 9.96, 8.94
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170933172k used, 25495152k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329868k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 477m 6348 S 1198.2  0.2   5:16.82 pairwise_demo   
+
+
+top - 22:39:38 up 36 days,  6:57,  1 user,  load average: 14.89, 9.96, 8.94
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170932736k used, 25495588k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329868k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 477m 6348 S 1200.2  0.2   5:28.87 pairwise_demo   
+
+
+top - 22:39:39 up 36 days,  6:57,  1 user,  load average: 14.89, 9.96, 8.94
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170936172k used, 25492152k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329868k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 480m 6348 S 1199.2  0.3   5:40.91 pairwise_demo   
+
+
+top - 22:39:40 up 36 days,  6:57,  1 user,  load average: 14.89, 9.96, 8.94
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170936360k used, 25491964k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329868k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 480m 6348 S 1199.2  0.3   5:52.95 pairwise_demo   
+
+
+top - 22:39:41 up 36 days,  6:57,  1 user,  load average: 14.89, 9.96, 8.94
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170936572k used, 25491752k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329872k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 480m 6348 S 1200.2  0.3   6:05.00 pairwise_demo   
+
+
+top - 22:39:42 up 36 days,  6:57,  1 user,  load average: 15.30, 10.12, 9.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170936384k used, 25491940k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329876k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 480m 6348 S 1199.2  0.3   6:17.04 pairwise_demo   
+
+
+top - 22:39:43 up 36 days,  6:57,  1 user,  load average: 15.30, 10.12, 9.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.5%us, 12.3%sy,  0.0%ni, 64.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170936760k used, 25491564k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329876k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 480m 6348 S 1199.2  0.3   6:29.08 pairwise_demo   
+
+
+top - 22:39:44 up 36 days,  6:57,  1 user,  load average: 15.30, 10.12, 9.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 23.4%us, 12.4%sy,  0.0%ni, 64.2%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170937172k used, 25491152k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329876k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1474m 480m 6348 S 1199.2  0.3   6:41.12 pairwise_demo   
+
+
+top - 22:39:45 up 36 days,  6:57,  1 user,  load average: 15.30, 10.12, 9.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+Cpu(s): 16.8%us, 12.5%sy,  0.0%ni, 70.7%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170832520k used, 25595804k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329876k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
+ 63101 qa_work   20   0 1362m 375m 6372 S 600.0  0.2   6:49.49 pairwise_demo    
+
+
+top - 22:39:46 up 36 days,  6:57,  1 user,  load average: 15.30, 10.12, 9.00
+Tasks:   0 total,   0 running,   0 sleeping,   0 stopped,   0 zombie
+Cpu(s):  5.8%us, 12.4%sy,  0.0%ni, 81.8%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:  196428324k total, 170457696k used, 25970628k free,  1435968k buffers
+Swap:        0k total,        0k used,        0k free, 157329876k cached
+
+   PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND           
