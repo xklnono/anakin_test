@@ -1,0 +1,1595 @@
+Sat Jun 30 11:21:19 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    24W /  75W |    277MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    125MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   53C    P0     2W /  35W |     37MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   26C    P8     1W /  35W |     37MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200     8MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:20 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    24W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   52C    P0     2W /  35W |    121MiB /  4042MiB |      7%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    84MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:21 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   52C    P0    19W /  35W |    224MiB /  4042MiB |     26%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:23 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   55C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:24 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   55C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:25 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   56C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:26 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   56C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:27 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   56C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:28 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   57C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:29 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   57C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:30 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   57C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:31 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   57C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   30C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:33 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   57C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   30C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:34 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   57C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   30C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:35 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   57C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   30C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:36 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 39%   57C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   30C    P0     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:37 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 40%   58C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   30C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:38 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 40%   58C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:39 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 40%   58C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:40 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 40%   58C    P0    26W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:41 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 40%   58C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   29C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:43 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 40%   58C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:44 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 40%   58C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:45 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   58C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:46 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   58C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:47 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   38C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   58C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:48 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   59C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:49 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   59C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:50 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   59C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:51 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   59C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:53 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   59C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:54 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   59C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:55 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   59C    P0    25W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:56 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 41%   59C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:57 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    24W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:58 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:21:59 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    25W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:00 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:02 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   28C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:03 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:04 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:05 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:06 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   59C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:07 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   60C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:08 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   60C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:09 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   60C    P0    23W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
+Sat Jun 30 11:22:11 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 384.66                 Driver Version: 384.66                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P4            On   | 00000000:02:00.0 Off |                    0 |
+| N/A   37C    P0    23W /  75W |    384MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla P4            On   | 00000000:03:00.0 Off |                    0 |
+| N/A   34C    P0    23W /  75W |    240MiB /  7606MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Quadro K1200        On   | 00000000:83:00.0 Off |                  N/A |
+| 42%   60C    P0    22W /  35W |    224MiB /  4042MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Quadro K1200        On   | 00000000:84:00.0 Off |                  N/A |
+| 39%   27C    P8     1W /  35W |     64MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID  Type  Process name                               Usage      |
+|=============================================================================|
+|    0      7057    C   ./model_batchsize_test_perf_liveness_p4        259MiB |
+|    0     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    1      7057    C   ./model_batchsize_test_perf_liveness_p4        115MiB |
+|    1     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   115MiB |
+|    2      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    2     18619    C   ...l_batchsize_test_perf_remark_demark_k1200   184MiB |
+|    3      7057    C   ./model_batchsize_test_perf_liveness_p4         24MiB |
+|    3     18619    C   ...l_batchsize_test_perf_remark_demark_k1200    24MiB |
++-----------------------------------------------------------------------------+
+====ending====
