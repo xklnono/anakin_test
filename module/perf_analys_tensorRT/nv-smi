@@ -1,9 +1,0 @@
-#!/bin/sh
-
-> $2
-while true
-do
-    nvidia-smi >> $2
-    echo "====ending====" >> $2
-    sleep $1
-done

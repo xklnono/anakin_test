@@ -1,3 +1,0 @@
-image_num : 735
-total_time : 9440.77ms
-average_time : 12.8446ms
