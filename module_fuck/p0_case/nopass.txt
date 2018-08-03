@@ -1,0 +1,10 @@
+========model:mobilenetssd, version:2, record time: <2> anakin diff anakin no_pass======
+========model:mobilenetssd, version:1, record time: <1> anakin diff anakin no_pass======
+========model:plant_v2, version:32, record time: <4> anakin diff anakin no_pass======
+========model:plant_v2, version:2, record time: <1> anakin diff anakin no_pass======
+========model:plant_v2, version:1, record time: <7> anakin diff anakin no_pass======
+========model:mainbody, version:8, record time: <1> anakin diff anakin no_pass======
+========model:mainbody, version:4, record time: <8> anakin diff anakin no_pass======
+========model:mainbody, version:2, record time: <1> anakin diff anakin no_pass======
+========model:mainbody, version:1, record time: <1> anakin diff anakin no_pass======
+========model:se_ResNeXt50, version:1, record time: <1> anakin diff anakin no_pass======
