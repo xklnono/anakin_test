@@ -143,21 +143,14 @@ TEST(NetTest, net_execute_base_test) {
         file = GLB_image_result + file_name + ".txt" ;
         fout.open(file);    
         
-        //std::istringstream str( tmp_out ); 
-        //std::vector<std::string> out_name ;
-        //std::string tmp;
-        //while (std::getline(str, tmp, ';')) {
-        //    out_name.push_back(tmp); 
-        //}
-        //for(int i = 0; i < out_name.size(); i++) {
-        //    auto tensor_out_i_p = net_executer.get_out(out_name[i]);
-        //    test_print(tensor_out_i_p, fout);
-        //}
-        
         for(int i = 0; i < graph_outs.size(); i++) {
             LOG(INFO) << "graph outs: " << graph_outs[i];
             auto tensor_out_i_p = net_executer.get_out(graph_outs[i]);
-            test_print(tensor_out_i_p, fout);
+            if (i==2) {
+                test_print(tensor_out_i_p, fout);
+            } else {
+                test_print_tmp(tensor_out_i_p, fout);
+            }
         }
   
         fout.close();
@@ -169,6 +162,7 @@ TEST(NetTest, net_execute_base_test) {
         my_time.start(ctx);
         for(int i = 0; i < epoch; i++) {
             net_executer.prediction();
+            cudaDeviceSynchronize();
         }
         my_time.end(ctx);
         LOG(INFO) << "average time " << my_time.get_average_ms()/epoch << " ms";

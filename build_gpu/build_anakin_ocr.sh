@@ -21,11 +21,11 @@ if [ -e anakin2 ];
 then
     rm -rf anakin2
 fi
-git clone https://github.com/Shixiaowei02/Anakin.git
+git clone https://github.com/PaddlePaddle/Anakin.git
 mv Anakin anakin2
 
 cd $ANAKIN2_ROOT_PATH
-git checkout 1bb9940
+git checkout developing
 
 ##(2)modify the CMakeLists.txt and find_modules.cmake to use the opencv
 cp $ANAKIN2_ROOT_PATH/CMakeLists.txt $NEW_FILE_PATH/CMakeLists.txt
@@ -57,8 +57,6 @@ cp -f $NEW_FILE_PATH"/net_test.h" $ANAKIN2_ROOT_PATH"/test/framework/net"
 sed -i "/CUDNN_INCLUDE_DIR cudnn.h PATHS/s/include//g" $ANAKIN2_ROOT_PATH/cmake/cuda.cmake
 ##(3)modify the specify context for every modle
 cd $CUR_PATH
-#python modify.py $1 
-#python modify_vis.py $1
 ##(4)compile the code
 if [ -d $ANAKIN2_ROOT_PATH ];then
     cd $ANAKIN2_ROOT_PATH

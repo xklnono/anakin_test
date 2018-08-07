@@ -26,7 +26,11 @@ mv Anakin anakin2
 
 cd $ANAKIN2_ROOT_PATH
 git checkout developing
-cd $ANAKIN2_ROOT_PATH
+#git clone -b fix/vis-ssd https://github.com/Shixiaowei02/Anakin.git
+#mv Anakin anakin2
+#cd $ANAKIN2_ROOT_PATH
+#git reset --hard f974308
+#cd $ANAKIN2_ROOT_PATH
 
 ##(2)modify the CMakeLists.txt and find_modules.cmake to use the opencv
 cp $ANAKIN2_ROOT_PATH/CMakeLists.txt $NEW_FILE_PATH/CMakeLists.txt

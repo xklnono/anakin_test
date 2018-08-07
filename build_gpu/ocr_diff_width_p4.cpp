@@ -78,9 +78,11 @@ TEST(NetTest, net_execute_base_test) {
          LOG(FATAL) << " [ERROR] " << status.info();
      }
 
-    Shape new_shape(std::stoi(GLB_num), 1, 48, std::stoi(GLB_height));
+    Shape tensor_inshape(std::stoi(GLB_num), 1, 48, std::stoi(GLB_height));
 
-    graph->ResetBatchSize("input_0", std::stoi(GLB_num));
+    //graph->ResetBatchSize("input_0", std::stoi(GLB_num));
+    Shape graph_inshape(30, 1, 48, 1500);
+    graph->Reshape("input_0",  graph_inshape);
     graph->Optimize();
    
     auto graph_ins = graph->get_ins();
@@ -91,7 +93,7 @@ TEST(NetTest, net_execute_base_test) {
     
     // get in
     auto d_tensor_in_p = net_executer.get_in("input_0");
-    d_tensor_in_p->reshape(new_shape);
+    d_tensor_in_p->reshape(tensor_inshape);
 
     Tensor4d<X86, AK_FLOAT> h_tensor_in;
 
