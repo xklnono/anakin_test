@@ -44,7 +44,7 @@ model = {
     'ssd' : ['3', '300', '300', 'public_images', 'detection_out_out'],
     'mobilenet' : ['3', '224', '224', 'public_images', 'prob_out'],
     'vgg19' : ['3', '224', '224', 'public_images', 'prob_out'],
-    'segnet' : ['3', '224', '224', 'public_images', 'prob_out'],
+    #'segnet' : ['3', '224', '224', 'public_images', 'prob_out'],
     'mobilenet_v2' : ['3', '224', '224', 'public_images', 'prob_out'],
     'yolo': ['3', '448', '448', 'public_images', 'result_out'],
 }
@@ -83,6 +83,9 @@ def modify_anakin_file(file_name, card_name):
         tmp_out_data += "\""
         with open(tmp_abs,"r")as f:
             for line in f:
+                if "remark" in k:
+                    if "cpu_data[idx] = img.data[w]" in line:
+                        line = line.replace("cpu_data[idx] = img.data[w]","cpu_data[idx] = (img.data[w]-127.5)/127.5")
                 if "model_name" in line:
                     line = line.replace("model_name", k)
                 if "src_name" in line:
@@ -132,6 +135,9 @@ def modify_tensorRT_file(filename):
         file_data=""
         with open(tmp_abs,"r")as f:
             for line in f:
+                if "remark" in k:
+                    if "cpu_data[idx] = img.data[w]" in line:
+                        line = line.replace("cpu_data[idx] = img.data[w]","cpu_data[idx] = (img.data[w]-127.5)/127.5")
                 if "model_name" in line:
                     line = line.replace("model_name", k)
                 if "src_name" in line:

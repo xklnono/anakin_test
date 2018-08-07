@@ -158,6 +158,7 @@ TEST(NetTest, net_execute_base_test) {
 
         for(int j=0; j< 10; j++){
             net_executer.prediction();
+            cudaDeviceSynchronize();
         }
         my_time.start(ctx);
 
@@ -165,6 +166,7 @@ TEST(NetTest, net_execute_base_test) {
         //auto start = std::chrono::system_clock::now();
         for(int i=0; i< epoch; i++) {
             net_executer.prediction();
+            cudaDeviceSynchronize();
         }
         
         my_time.end(ctx);

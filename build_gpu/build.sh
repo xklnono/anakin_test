@@ -8,7 +8,9 @@ WORK_PATH=`pwd`
 declare -a model_name
 declare -a model_result_dir
 
-model_name=(attribute blur feature_patch0 feature_patch1 feature_patch2 feature_patch3 feature_patch4 feature_patch5 feature_patch6 remark_demark remark_super score alignment_stage1 alignment_stage2 occlusion inception mobilenet Resnet101 Resnet50 ssd liveness vgg16 cnn_seg yolo_lane_v2 yolo_camera_detector densenbox diepsie mobilenet_ssd_fluid mobilenet_ssd_caffe se_resnext50_caffe se_resnext50_fluid vgg19 segnet mobilenet_v2 yolo mainbody mobilenetssd ocr20 animal_v2 plant_v2 new256 se-ResNeXt50)
+#model_name=(attribute blur feature_patch0 feature_patch1 feature_patch2 feature_patch3 feature_patch4 feature_patch5 feature_patch6 remark_demark remark_super score alignment_stage1 alignment_stage2 occlusion inception mobilenet Resnet101 Resnet50 ssd liveness vgg16 cnn_seg yolo_lane_v2 yolo_camera_detector densenbox diepsie mobilenet_ssd_fluid mobilenet_ssd_caffe se_resnext50_caffe se_resnext50_fluid vgg19 segnet mobilenet_v2 yolo mainbody mobilenetssd  animal_v2 plant_v2 new256 se-ResNeXt50 car_ssd mapdemo)
+
+model_name=('vgg16' 'Resnet50' 'Resnet101' 'mobilenet_v2' 'yolo' 'mobilenet')
 
 #vis_model=(mainbody mobilenetssd ocr20)
 
@@ -40,13 +42,12 @@ do
         rm -rf *
     fi
 done
-
 ##(2)clear the UT dir
-#if [ -d $ANAKIN2_UT_PATH ]; then
-#    cd $ANAKIN2_UT_PATH
-#    echo `pwd`
-#    rm -rf *
-#fi
+if [ -d $ANAKIN2_UT_PATH ]; then
+    cd $ANAKIN2_UT_PATH
+    echo `pwd`
+    rm -rf *
+fi
 
 #if [ -d $TENSORRT_UT_PATH ];then
 #    cd $TENSORRT_UT_PATH
@@ -61,9 +62,10 @@ done
 #fi
 ##(3)compile the anakin UT
 cd $WORK_PATH
-#./build_anakin.sh anakin_p4
-#./build_anakin.sh anakin_k1200
+./build_anakin.sh anakin_p4
+./build_anakin.sh anakin_k1200
 ##(4)compile the tensorRT UT
+exit
 cd $WORK_PATH
 ./build_tensorRT.sh tensorRT p4
-#./build_tensorRT.sh tensorRT k1200
+./build_tensorRT.sh tensorRT k1200

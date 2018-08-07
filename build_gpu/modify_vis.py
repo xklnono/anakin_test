@@ -6,14 +6,15 @@ import re
 import fileinput
 
 model = {
-     #vis modle
-    'ocr20' : ['1', '48', '194', 'input_file', 'fc_2.tmp_out'],
+    #vis modle
+    #'ocr20' : ['1', '48', '194', 'input_file', 'fc_2.tmp_out'],
     'mainbody' : ['3', '227', '227', 'input_file', 'elementwise_add_0.tmp_0_out'],
     'mobilenetssd' : ['3', '300', '300', 'input_file', 'detection_output_0.tmp_0_out'],
     'animal_v2' : ['3', '224', '224', 'input_file', 'fc_reduce.tmp_1_out'],
     'plant_v2' : ['3', '222', '222', 'input_file', 'fc_reduce.tmp_1_out'],
     'new256' : ['3', '225', '225', 'input_file','concat_0.tmp_0_out', 'concat_1.tmp_0_out', 'fc2.tmp_1_out'],
     'se_ResNeXt50' : ['3', '224', '224', 'input_file', 'fc_32.tmp_2_out'],
+    'car_ssd' : ['3', '300', '300', 'input_file', 'detection_out'],
 }
 
 
@@ -82,7 +83,7 @@ if sys.argv[1] == "anakin_p4":
     modify_anakin_file("model_batchsize_test_perf.vis.cpp", "p4")
     modify_anakin_file("model_batchsize_test.vis.cpp", "default")
     #modify_anakin_file("multi_test.cpp", "default")
-    modify_anakin_file("model_batchsize_test_perf.vis.cpp", "default")
+    #modify_anakin_file("model_batchsize_test_perf.vis.cpp", "default")
 elif sys.argv[1] == "anakin_k1200":
     modify_anakin_file("model_batchsize_test.vis.cpp", "k1200")
     modify_anakin_file("model_batchsize_test_perf.vis.cpp", "k1200")
